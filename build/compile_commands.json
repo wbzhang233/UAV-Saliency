@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/wbzhang/CLionProjects/UAV-Saliency/build",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -std=gnu++14 -o CMakeFiles/saliency.dir/contrast_demo.cpp.o -c /home/wbzhang/CLionProjects/UAV-Saliency/contrast_demo.cpp",
+  "file": "/home/wbzhang/CLionProjects/UAV-Saliency/contrast_demo.cpp"
+},
+
+{
+  "directory": "/home/wbzhang/CLionProjects/UAV-Saliency/build",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -std=gnu++14 -o CMakeFiles/saliency.dir/contrast.cpp.o -c /home/wbzhang/CLionProjects/UAV-Saliency/contrast.cpp",
+  "file": "/home/wbzhang/CLionProjects/UAV-Saliency/contrast.cpp"
+},
+
+{
+  "directory": "/home/wbzhang/CLionProjects/UAV-Saliency/build",
+  "command": "/usr/bin/g++-7   -I/usr/include/opencv  -g   -std=gnu++14 -o CMakeFiles/yaml_test.dir/yaml_test.cpp.o -c /home/wbzhang/CLionProjects/UAV-Saliency/yaml_test.cpp",
+  "file": "/home/wbzhang/CLionProjects/UAV-Saliency/yaml_test.cpp"
+}
+]

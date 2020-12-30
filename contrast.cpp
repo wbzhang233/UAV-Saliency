@@ -45,12 +45,12 @@ void calculate_contrast(
 }
 void gene_neighbors(const int i, const int j, const int theta, const int height, const int width, std::vector<std::vector<int>> &neighbors, int &length)
 {
-	cv::vector<int> h_range(2);
-	cv::vector<int> w_range(2);
-	h_range[0] = cv::max(0, (i - theta));
-	h_range[1] = cv::min(height - 1, (i + theta));
-	w_range[0] = cv::max(0, (j - theta));
-	w_range[1] = cv::min(width - 1, (j + theta));
+	std::vector<int> h_range(2);
+	std::vector<int> w_range(2);
+	h_range[0] = max(0, (i - theta));
+	h_range[1] = min(height - 1, (i + theta));
+	w_range[0] = max(0, (j - theta));
+	w_range[1] = min(width - 1, (j + theta));
 	int h_size = h_range[1] - h_range[0] + 1;
 	int w_size = w_range[1] - w_range[0] + 1;
 	length = h_size*w_size;

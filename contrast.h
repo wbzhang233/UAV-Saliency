@@ -6,10 +6,15 @@ Description: codes for Equation 1 in UAV saliency (part of the implementation)
 Reference http://breckon.eu/toby/publications/papers/sokalski10uavsalient.pdf
 **************************************************/
 #define _CRT_SECURE_NO_DEPRECATE 
-#include<iostream>
-#include<highgui.h>
-#include<cv.h>
-#include<string>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
+
+using namespace cv;
+using namespace std;
+
 void gene_neighbors(
 	const int i,
 	const int j,

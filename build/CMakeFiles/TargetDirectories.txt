@@ -1,0 +1,4 @@
+/home/wbzhang/CLionProjects/UAV-Saliency/build/CMakeFiles/rebuild_cache.dir
+/home/wbzhang/CLionProjects/UAV-Saliency/build/CMakeFiles/edit_cache.dir
+/home/wbzhang/CLionProjects/UAV-Saliency/build/CMakeFiles/saliency.dir
+/home/wbzhang/CLionProjects/UAV-Saliency/build/CMakeFiles/yaml_test.dir
